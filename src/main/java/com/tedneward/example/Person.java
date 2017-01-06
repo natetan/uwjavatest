@@ -20,17 +20,20 @@ public class Person implements Comparable<Person> {
     this.count++;
   }
 
-  class AgeComparator implements Comparable <Person> {
-    private Person p1, p2;
-
-    public AgeComparator(Person p1, Person p2) {
-      this.p1 = new Person(p1.name, p1.age, p1.salary);
-      this.p2 = new Person(p2.name, p2.age, p2.salary);
-    }
-
-    public int compareTo(Person other) {
+  static class AgeComparator implements Comparator<Person> {
+    @Override
+    public int compare(Person p1, Person p2) {
       return Integer.compare(p1.age, p2.age);
     }
+  }
+
+  public static List<Person> getNewardFamily() {
+    List<Person> family = new ArrayList<>();
+    family.add(new Person("Ted", 41, 250000));
+    family.add(new Person("Charlotte", 43, 150000));
+    family.add(new Person("Michael", 22, 10000));
+    family.add(new Person("Matthew", 15, 0));
+    return family;
   }
 
   public int compareTo(Person other) {
@@ -41,8 +44,14 @@ public class Person implements Comparable<Person> {
     return this.count;
   }
 
-  public boolean equals(Person other) {
-    return this.name.equals(other.name) && this.age == other.age;
+  @Override
+  public boolean equals(Object other) {
+    if (other == null || !(other instanceof Person)) {
+      return false;
+    } else {
+      Person p = (Person) other;
+      return this.name.equals(p.name) && this.age == p.age;
+    }
   }
 
   public int getAge() {
@@ -61,7 +70,7 @@ public class Person implements Comparable<Person> {
   }
 
   public void setName(String name) {
-    if (name.equals("")) {
+    if (name == null) {
       throw new IllegalArgumentException();
     }
     this.name = name;
@@ -103,8 +112,8 @@ public class Person implements Comparable<Person> {
     return this.age + 10;
   }
 
-  public String tostring() {
-    return "{{FIXME}}";
+  public String toString() {
+    return "[Person name:" + this.name + " age:" + this.age + " salary:" + this.salary + "]";
   }
 
   // PropertyChangeListener support; you shouldn't need to change any of
