@@ -9,40 +9,41 @@ public class Person {
   private double salary;
   private String ssn;
   private boolean propertyChangeFired = false;
-  
+
   public Person() {
     this("", 0, 0.0d);
   }
-  
+
   public Person(String n, int a, double s) {
-    name = n;
-    age = a;
-    salary = s;
+    this.name = n;
+    this.age = a;
+    this.salary = s;
   }
 
   public void setSSN(String value) {
-    String old = ssn;
-    ssn = value;
-    
+    String old = this.ssn;
+    this.ssn = value;
+
     this.pcs.firePropertyChange("ssn", old, value);
-    propertyChangeFired = true;
+    this.propertyChangeFired = true;
   }
+
   public boolean getPropertyChangeFired() {
-    return propertyChangeFired;
+    return this.propertyChangeFired;
   }
 
   public double calculateBonus() {
-    return salary * 1.10;
+    return this.salary * 1.10;
   }
-  
+
   public String becomeJudge() {
-    return "The Honorable " + name;
+    return "The Honorable " + this.name;
   }
-  
+
   public int timeWarp() {
-    return age + 10;
+    return this.age + 10;
   }
-  
+
   public String tostring() {
     return "{{FIXME}}";
   }
@@ -51,10 +52,12 @@ public class Person {
   // these two methods or the field
   //
   private final PropertyChangeSupport pcs = new PropertyChangeSupport(this);
+
   public void addPropertyChangeListener(PropertyChangeListener listener) {
-      this.pcs.addPropertyChangeListener(listener);
+    this.pcs.addPropertyChangeListener(listener);
   }
+
   public void removePropertyChangeListener(PropertyChangeListener listener) {
-      this.pcs.removePropertyChangeListener(listener);
+    this.pcs.removePropertyChangeListener(listener);
   }
 }
