@@ -37,21 +37,39 @@
       <file leaf-file-name="Person.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/tedneward/example/Person.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="28" column="3" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
+            <state relative-caret-position="540">
+              <caret line="31" column="45" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
               <folding>
-                <element signature="e#251#252#0" expanded="true" />
-                <element signature="e#278#279#0" expanded="true" />
-                <element signature="e#612#613#0" expanded="true" />
-                <element signature="e#653#654#0" expanded="true" />
-                <element signature="e#689#690#0" expanded="true" />
-                <element signature="e#724#725#0" expanded="true" />
-                <element signature="e#757#758#0" expanded="true" />
-                <element signature="e#802#803#0" expanded="true" />
-                <element signature="e#829#830#0" expanded="true" />
-                <element signature="e#859#860#0" expanded="true" />
-                <element signature="e#889#890#0" expanded="true" />
-                <element signature="e#917#918#0" expanded="true" />
+                <element signature="e#275#276#0" expanded="true" />
+                <element signature="e#302#303#0" expanded="true" />
+                <element signature="e#721#722#0" expanded="true" />
+                <element signature="e#773#774#0" expanded="true" />
+                <element signature="e#817#818#0" expanded="true" />
+                <element signature="e#875#876#0" expanded="true" />
+                <element signature="e#899#900#0" expanded="true" />
+                <element signature="e#926#927#0" expanded="true" />
+                <element signature="e#967#968#0" expanded="true" />
+                <element signature="e#1037#1038#0" expanded="true" />
+                <element signature="e#1062#1063#0" expanded="true" />
+                <element signature="e#1087#1088#0" expanded="true" />
+                <element signature="e#1242#1243#0" expanded="true" />
+                <element signature="e#1268#1269#0" expanded="true" />
+                <element signature="e#1440#1441#0" expanded="true" />
+                <element signature="e#1468#1469#0" expanded="true" />
+                <element signature="e#1510#1511#0" expanded="true" />
+                <element signature="e#1540#1541#0" expanded="true" />
+                <element signature="e#1568#1569#0" expanded="true" />
+                <element signature="e#1593#1594#0" expanded="true" />
+                <element signature="e#1819#1820#0" expanded="true" />
+                <element signature="e#1860#1861#0" expanded="true" />
+                <element signature="e#1896#1897#0" expanded="true" />
+                <element signature="e#1931#1932#0" expanded="true" />
+                <element signature="e#1964#1965#0" expanded="true" />
+                <element signature="e#2009#2010#0" expanded="true" />
+                <element signature="e#2036#2037#0" expanded="true" />
+                <element signature="e#2066#2067#0" expanded="true" />
+                <element signature="e#2096#2097#0" expanded="true" />
+                <element signature="e#2124#2125#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -631,21 +649,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tedneward/example/Person.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="28" column="3" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
+        <state relative-caret-position="540">
+          <caret line="31" column="45" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
           <folding>
-            <element signature="e#251#252#0" expanded="true" />
-            <element signature="e#278#279#0" expanded="true" />
-            <element signature="e#612#613#0" expanded="true" />
-            <element signature="e#653#654#0" expanded="true" />
-            <element signature="e#689#690#0" expanded="true" />
-            <element signature="e#724#725#0" expanded="true" />
-            <element signature="e#757#758#0" expanded="true" />
-            <element signature="e#802#803#0" expanded="true" />
-            <element signature="e#829#830#0" expanded="true" />
-            <element signature="e#859#860#0" expanded="true" />
-            <element signature="e#889#890#0" expanded="true" />
-            <element signature="e#917#918#0" expanded="true" />
+            <element signature="e#275#276#0" expanded="true" />
+            <element signature="e#302#303#0" expanded="true" />
+            <element signature="e#721#722#0" expanded="true" />
+            <element signature="e#773#774#0" expanded="true" />
+            <element signature="e#817#818#0" expanded="true" />
+            <element signature="e#875#876#0" expanded="true" />
+            <element signature="e#899#900#0" expanded="true" />
+            <element signature="e#926#927#0" expanded="true" />
+            <element signature="e#967#968#0" expanded="true" />
+            <element signature="e#1037#1038#0" expanded="true" />
+            <element signature="e#1062#1063#0" expanded="true" />
+            <element signature="e#1087#1088#0" expanded="true" />
+            <element signature="e#1242#1243#0" expanded="true" />
+            <element signature="e#1268#1269#0" expanded="true" />
+            <element signature="e#1440#1441#0" expanded="true" />
+            <element signature="e#1468#1469#0" expanded="true" />
+            <element signature="e#1510#1511#0" expanded="true" />
+            <element signature="e#1540#1541#0" expanded="true" />
+            <element signature="e#1568#1569#0" expanded="true" />
+            <element signature="e#1593#1594#0" expanded="true" />
+            <element signature="e#1819#1820#0" expanded="true" />
+            <element signature="e#1860#1861#0" expanded="true" />
+            <element signature="e#1896#1897#0" expanded="true" />
+            <element signature="e#1931#1932#0" expanded="true" />
+            <element signature="e#1964#1965#0" expanded="true" />
+            <element signature="e#2009#2010#0" expanded="true" />
+            <element signature="e#2036#2037#0" expanded="true" />
+            <element signature="e#2066#2067#0" expanded="true" />
+            <element signature="e#2096#2097#0" expanded="true" />
+            <element signature="e#2124#2125#0" expanded="true" />
           </folding>
         </state>
       </provider>
